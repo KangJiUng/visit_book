@@ -1,0 +1,209 @@
+h3 {
+  font-size: 15px; 
+  font-weight: 500;
+  margin-top: -12px;
+  color: #9a9a9a;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Copyright {
+  font-family: 'Pretendard-Regular';
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(197, 197, 197);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.App-header1 {
+  background-color: #ffffff;
+  font-family: 'Pretendard-Regular';
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.Main-title {
+  font-size: 45px; 
+  margin-left: -300px;
+  margin-bottom: -13px;
+  margin-top: 130px;
+  font-weight: bold;
+}
+
+.Sub-title {
+  font-size: 15px; 
+  font-weight: 500;
+  margin-left: -300px;
+  margin-bottom: 13px;
+  color: #9a9a9a;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.card-list1 {
+  background-color: #eeeeee;
+  font-family: 'Pretendard-Regular';
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  color: #000000;
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  flex-basis: calc(25% - 20px);
+  flex-grow: 1;
+}
+
+.card-list2 {
+  background-color: #eeeeee;
+  font-family: 'Pretendard-Regular';
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  color: #000000;
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.title {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Pretendard-Regular';
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title2 {
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: 'Pretendard-Regular';
+  padding: 8px;
+  margin-bottom: 12px;
+  margin-top: -4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-list1 a:link {text-decoration: none; color: rgb(0, 0, 0);}
+.card-list1 a:active {text-decoration: none; color: rgb(0, 0, 0);}
+.card-list1 a:hover {text-decoration: underline; color: rgb(0, 0, 0);}
+
+.content {
+  margin-bottom: 8px;
+  margin-top: -4px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.writer {
+  font-family: 'Pretendard-Regular';
+  font-style: italic;
+  margin-bottom: -1px;
+}
+
+.button1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -310px;
+  margin-top: -8px;
+  gap: 10px;
+}
+
+.button1 {
+  background-color: #000000;
+  font-family: 'Pretendard-Regular';
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 12px;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button1:hover {
+  background-color: #555555;
+}
+
+.post-create {
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+
+.main-logo img {
+  width: 350px; 
+  height: auto;
+}
+
+.mainlink{
+  font-style: normal;
+  font-size: 15px;
+}
+
+.mainlink a:link {text-decoration: none; color: rgb(0, 0, 0);}
+.mainlink a:visited {text-decoration: none; color: rgb(0, 0, 0);}
+.mainlink a:active {text-decoration: none; color: rgb(0, 0, 0);}
+.mainlink a:hover {text-decoration: underline; color: rgb(0, 0, 0);}
+

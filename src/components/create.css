@@ -1,0 +1,81 @@
+.App-header2 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Pretendard-Regular';
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: rgb(0, 0, 0);
+}
+
+.card_create {
+    background-color: #eeeeee;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.card-title {
+    background-color: #eeeeee;
+    color: #000000;
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+edit.css label {
+    display: block;
+    font-family: 'Pretendard-Regular';
+    font-weight: bold;
+    color: #666666;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    color: #000000;
+    font-size: 15px;
+}
+
+input[type="text"],
+textarea {
+    font-family: 'Pretendard-Regular';
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button2 {
+  background-color: #000000;
+  font-family: 'Pretendard-Regular';
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+.button2:hover {
+    background-color: #515151;
+}
