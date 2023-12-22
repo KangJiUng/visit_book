@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3c1bc5807575f49c8e3ab643ff20596aba8eb421
 HELP.md
 .gradle
 build/
@@ -36,6 +39,7 @@ out/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
 =======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -61,3 +65,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 >>>>>>> b711828 (frontend commit)
+=======
+>>>>>>> 3c1bc5807575f49c8e3ab643ff20596aba8eb421
